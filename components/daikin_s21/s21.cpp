@@ -94,8 +94,8 @@ void DaikinS21::set_uarts(uart::UARTComponent *tx, uart::UARTComponent *rx) {
   this->rx_uart = rx;
 }
 
-#define S21_BAUD_RATE 2400
-#define S21_STOP_BITS 2
+#define S21_BAUD_RATE 57600
+#define S21_STOP_BITS 1
 #define S21_DATA_BITS 8
 #define S21_PARITY uart::UART_CONFIG_PARITY_EVEN
 
